@@ -1,0 +1,166 @@
+#code by daminduHD
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>Askot HD's Descovery</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Image Viewer</title>
+        <style>
+         
+          
+          .overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            justify-content: center;
+            align-items: center;
+          }
+      
+          
+          .overlay img {
+            max-width: 80%;
+            max-height: 80%;
+          }
+        </style>
+    </head>
+    <body>
+        <div class="main" >
+             <div class="navbar">
+                <div class="icon">
+                    <h2 class="logo">ASKOT</h2> 
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">PLACES</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>
+               
+                <div class="search">
+                    <input class="srch" type="search" name="" placeholder="Type To Text">
+                    <a href="#"> <button class="btn">search</button></a>
+
+                </div>
+                <div class="content">
+                    <h1><span> WELCOME EVERYONE</span></h1>
+                    <p class="par">
+                        Hello everyone.I'am Damindu Heshan. This is my frist webpage.This site describes some of the beautiful places I visited in Sri Lanka. I would like to share it with you.
+                    </p>
+                   
+            </div>
+        </div>
+        <div class="resize" >
+        <img src="ei1.jpg" alt="Image 1"  width="120px" height="90px"  class="image" onclick="openOverlay(this)">
+        <img src="ei2.jpg" alt="Image 2"  width="120px" height="90px"  class="image" onclick="openOverlay(this)">
+        <img src="ei3.jpg" alt="Image 2"  width="120px" height="90px"  class="image" onclick="openOverlay(this)">
+        <img src="ei4.jpg" alt="Image 2"  width="120px" height="90px"  class="image" onclick="openOverlay(this)">
+        <img src="ei5.jpeg" alt="Image 2" width="120px" height="90px"  class="image" onclick="openOverlay(this)">
+        </div>
+
+      
+        <div class="overlay" id="overlay">
+          <img src="" alt="Enlarged Image" id="enlargedImage">
+        </div>
+      
+        <script src="script.js"></script>
+       
+       
+        <div class="places">
+            <h1>  PLACES  </h1>
+            <ol class="list">
+                <li>Adam's Peak</li>
+                <li>Sigiriya Rock</li>
+                <li>Sinharaja Forest</li>
+                <li>Temple Of The Tooth</li>
+                <li>Ruwanweliseya</li>
+            </ol>
+        </div>
+        <div class="fristplace">
+            <h2>ADAM'S PEAK </h2>
+            <br>
+            <div class="frist">
+            <img src="sp4.jpg" alt="image01" width="400px" height="300px">
+            </div>
+            <br>
+            <br>
+            <br>
+            <P>Adam's Peak is a 2,243 m (7,359 ft) tall conical sacred mountain located in central Sri Lanka.It is well known for the Sri Pada (Śrī Pāda; Sinhala: ශ්‍රී පාද, "sacred footprint"), a 1.8 m (5 ft 11 in) rock formation near the summit whose name is also used for the mountain itself. In Buddhist tradition the print is held to be the footprint of the Buddha, in Hindu tradition that of Hanuman or Shiva (its Tamil name, Sivanolipaathamalai, means "Mountain of Shiva's Light") and in some Islamic and Christian traditions that of Adam or St. Thomas.</P><br> mountain is also known as Mount Malaya in Buddhist sources, particularly the Mahayana Lankavatara Sutra, which states that the Buddha preached this sutra on top of the mountain. According to this sutra, the mountain was the abode of Rāvanā, overlord of the Raskshasas and ruler of Laṅkā.Other names in Sanskrit sources include Mount Lanka, Ratnagiri (Mountain of Gems), Malayagiri (Mount Malaya) or Mount Rohana.</P><br>The mountain is also seen as the abode of the deity Saman and also goes by various names associated with this, including Sumanakūta ("Sumana's Mountain") and Samanalakanda ("Mountain of Saman" or "Mountain of the Butterflies").</P>
+           <br> <a href="https://en.wikipedia.org/wiki/Adam%27s_Peak">Visit More</a>
+
+        </div>
+       
+        <div class="secondplace">
+            <h2>SIGIRIYA ROCK</h2>
+            <br>
+            <div class="second">
+            <img src="s2.jpg" alt="image02" width="400px" height="300px">
+            </div>
+            <br>
+            <br>
+            <p>Sigiriya or Sinhagiri (Lion Rock Sinhala: සීගිරිය, Tamil: சிகிரியா/சிங்ககிரி, pronounced see-gi-ri-yə) is an ancient rock fortress located in the northern Matale District near the town of Dambulla in the Central Province, Sri Lanka. It is a site of historical and archaeological significance that is dominated by a massive column of granite rock approximately 180 m (590 ft) high.<p><br>According to the ancient Sri Lankan chronicle the Cūḷavaṃsa, this area was a large forest, then after storms and landslides it became a hill and was selected by King Kashyapa (AD 477–495) for his new capital. He built his palace on top of this rock and decorated its sides with colourful frescoes. On a small plateau about halfway up the side of this rock he built a gateway in the form of an enormous lion.</p><br> The name of this place is derived from this structure; Sīnhāgiri, the Lion Rock (an etymology similar to Sinhapura, the Sanskrit name of Singapore, the Lion City).The capital and the royal palace were abandoned after the king's death. It was used as a Buddhist monastery until the 14th century.Sigiriya today is a UNESCO listed World Heritage Site. It is one of the best preserved examples of ancient urban planning.</p>
+            <br>
+            <br>
+            <a href="https://en.wikipedia.org/wiki/Sigiriya">Visit More</a>
+        </div>
+
+        <div class="secondplace">
+            <h2>SINHARAJA Forest</h2>
+            <br>
+            <div class="third">
+            <img src="sinh1.jpg" alt="image03" width="400px" height="300px">
+            </div>
+            <br>
+            <br>
+            <p>Sinharaja Forest Reserve is a forest reserve and a biodiversity hotspot in Sri Lanka. It is of international significance and has been designated a Biosphere Reserve and World Heritage Site by UNESCO.According to International Union for Conservation of Nature (IUCN), Sinharaja is the country's last viable area of primary tropical rainforest. More than 60% of the trees are endemic and many of them are considered rare. 50% of Sri Lankan's endemics species of animals (especially butterfly, amphibians, birds, snakes and fish species). It is home to 95% endemic birds.<p><br>The hilly virgin rainforest, part of the Sri Lanka lowland rain forests ecoregion, was saved from the worst of commercial logging by its inaccessibility, and was designated a World Biosphere Reserve in 1978 and a World Heritage Site in 1988.Because of the dense vegetation, wildlife is not as easily seen as at dry-zone national parks such as Yala. The most common larger mammal is the endemic purple-faced langur.</p><br>Birds tend to move in mixed feeding flocks, invariably led by the fearless Sri Lanka crested drongo and the noisy orange-billed babbler. Of Sri Lanka's 26 endemic birds, the 20 rainforest species all occur here, including the elusive red-faced malkoha, green-billed coucal and Sri Lanka blue magpie.Reptiles include the endemic green pit viper and hump-nosed vipers, and there are a large variety of amphibians, especially tree frogs. Invertebrates include the endemic Sri Lankan birdwing butterfly and leeches.</p>
+            <br>
+            <a href="https://en.wikipedia.org/wiki/Sinharaja_Forest_Reserve">Visit More</a>
+        </div>
+
+        
+        <div class="secondplace">
+            <h2>TEMPLE OF THE TOOTH</h2>
+            <br>
+            <div class="fourth">
+            <img src="dm1.jpg" alt="image04" width="400px" height="300px">
+            </div>
+            <br>
+            <br>
+            <p>The Temple of the Sacred Tooth Relic or Sri Dalada Maligawa,[a] (Sinhala: ශ්‍රී දළදා මාළිගාව) is a Buddhist temple in Kandy, Sri Lanka. It is located in the royal palace complex of the former Kingdom of Kandy, which houses the relic of the tooth of the Buddha. Since ancient times, the relic has played an important role in local politics because it is believed that whoever holds the relic holds the governance of the country. The relic was historically held by Sinhalese kings. The temple of the tooth is a World Heritage Site mainly due to the temple and the relic.<p><br>Bhikkhus of the two particular chapters, the Malwathu chapters and Asgiri chapters, conduct daily worship in the inner chamber of the temple. Rituals are performed three times daily: at dawn, at noon and in the evenings. On Wednesdays, there is a symbolic bathing of the relic with a herbal preparation made from scented water and fragrant flowers called Nanumura Mangallaya; this holy water is believed to contain healing powers and is distributed to those present.The temple sustained damage from bombings by Janatha Vimukthi Peramuna in 1989, and by the Liberation Tigers of Tamil Eelam in 1998. However, it was fully restored each time.</p>
+            <br>
+            <a href="https://en.wikipedia.org/wiki/Temple_of_the_Tooth">Visit More</a>
+        </div>
+        
+        <div class="secondplace">
+            <h2>RUWANWELISEYA</h2>
+            <br>
+            <div class="fifth">
+            <img src="r1.jpg" alt="image05" width="400px" height="300px">
+            </div>
+            <br>
+            <br>
+            <p>The Ruwanweli Maha Seya, also known as the swarnamali maha seya (lit. 'the Great Thupa'), is a stupa (a hemispherical structure containing relics) in Anuradhapura, Sri Lanka. Two quarts or one Dona of the Buddha's relics are enshrined in the stupa, making it the largest collection of his relics anywhere.[1] It was built by Sinhalese King Dutugemunu in c. 140 B.C., who became king of Sri Lanka after a war in which the Chola King Elāra (Ellalan) was defeated. It is also known as Swarnamali Seya, Svaṇṇamāli Mahaceti (in Pali) and Rathnamali Seya.<p><<br>This is one of the "Solosmasthana" (the 16 places of veneration) and the "Atamasthana" (the 8 places of veneration). The stupa is one of the world's tallest ancient monuments, standing at 103 m (338 ft) and with a circumference of 290 m (951 ft). The original stupa had been about 55 m (180 ft) in height and was renovated by many kings. The Kaunghmudaw Pagoda in Sagaing, Myanmar is modelled after this stupa. The Mahavamsa contains a detailed account on the construction and the opening ceremony of the stupa.<p><br>The stupa was covered by wilderness as of the 19th century. After fund raising efforts by a bhikkhu, it was renovated in the early 20th century. The Ruwanweli Seya Restoration Society was set up, most notably the philanthropist Hendrick Appuhamy, donated Rs 20 million (1912 ) adjusted for inflation in 2021 it is worth 611 million US Dollars for the restoration works,the foundation was founded in 1902 and the modern day crowning (a "crown" is a large gem placed at the very top of the stupa) was done on June 17, 1940, and the final crowning of the stupa took place on November 26, 2019.</p>
+            <br>
+            <a href="https://en.wikipedia.org/wiki/Ruwanwelisaya">Visit More</a>
+        </div>
+
+
+
+
+        
+        </head>
+        <body>
+
+        </body>
+        </html>
+        
+
+
+
+    </body>
+</html>
